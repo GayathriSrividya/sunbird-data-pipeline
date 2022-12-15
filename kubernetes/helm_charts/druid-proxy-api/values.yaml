@@ -1,0 +1,8 @@
+namespace: "obsrv-query-engine"
+dockerhub: "sri6379"
+replicaCount: 1
+repository: "druid-proxy-api"
+image_tag: 1.0.0
+network:
+  port: 3000
+  targetport: 3000
